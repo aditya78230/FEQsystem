@@ -4,6 +4,9 @@ const api = require("./routes/que");
 const bodyParser = require('body-parser');
 const admin = require("./routes/admin")
 
+const cros = require("cors");
+
+app.use(cros());
 
 app.use(bodyParser.json());
 
