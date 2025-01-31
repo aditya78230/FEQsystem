@@ -11,7 +11,13 @@ const App = () => {
     { name: "hindi", code: "hi" },
     { name: "marathi", code: "mr" },
     { name: "french", code: "fr" },
-    { name: "spanish", code: "es" }
+    { name: "spanish", code: "es" },
+    { name: "japanese", code: "ja" },
+    { name: "korean", code: "ko" },
+    { name: "portuguese", code: "pt" },
+    { name: "italian", code: "it" },
+    { name: "bengali", code: "bn" },
+    { name: "tamil", code: "ta" }
   ];
 
   const [selectedLanguage, setSelectedLanguage] = useState("");
