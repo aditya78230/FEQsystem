@@ -15,7 +15,3 @@ app.listen(3000,()=>{
 })
 
 
-
-//redis
-//translate
-//answer format
